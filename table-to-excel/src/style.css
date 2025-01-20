@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply w-dvw p-6;
+}
+
+main {
+    @apply max-w-3xl space-y-4 w-full mx-auto;
+}
+
+table {
+    @apply w-full;
+}
+
+th {
+    @apply border-b px-4 py-1.5 bg-zinc-950 text-zinc-50 text-center;
+}
+
+td {
+    @apply border-b px-4 py-1.5 text-zinc-950 bg-zinc-50 text-center;
+}
+
+button {
+    @apply px-4 py-1.5 text-lg bg-green-500 text-zinc-50 rounded-md;
+}
